@@ -3,7 +3,6 @@ Fonts
 Droid Serif
 Droid Sans
 Droid Sans Mono
-
 Font Scaling
 6.854rem
 4.236rem
@@ -11,12 +10,9 @@ Font Scaling
 1.618rem
 1.0rem
 0.618rem
-
 Colour scheme
-
 Tahoma, Geneva, sans-serif
 MS Serif, New York, serif
-
 **************************************************/
 
 * {
@@ -39,7 +35,7 @@ header h1 {
     color: #B4BDBB;
     font-size: 12vw;
     position: absolute;
-    top: 1%;
+    top: 2%;
     line-height: 150%;
     margin: auto 0 auto 0;
     text-align: left;
@@ -256,14 +252,18 @@ footer p {
 @media screen and (min-width: 1000px) {
     h2 {
         font-size: 2.5vw;
+        top:
     }
     .col p {
         font-size: 1.5vw;
     }
 }
 @media screen and (min-width: 1200px) {
-    h1 {
+    header h1 {
         font-size: 8vw;
+        top: 0px;
+        
+
     }
     h2 {
         font-size: 2.2vw;
